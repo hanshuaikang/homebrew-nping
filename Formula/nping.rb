@@ -1,13 +1,13 @@
 class Nping < Formula
   desc "🏎 Nping mean NB Ping, A Ping Tool in Rust with Real-Time Data and Visualizations"
   homepage "https://github.com/hanshuaikang/Nping"
-  url "https://github.com/hanshuaikang/Nping/releases/download/v0.2.0/Nping-x86_64-apple-darwin.zip"
-  sha256 "6d2919f140a87a87a5f404eee28415485267720e41508591032257aaac07ef15"
+  url "https://github.com/hanshuaikang/Nping/releases/download/v0.2.1/nping-x86_64-apple-darwin.tar.gz"
+  sha256 "895f032fbc06ad75b79230360b9ee20210c4f4ac518ca627422d866b863529db"
 
   # for arm64
   on_arm do
-    url "https://github.com/hanshuaikang/Nping/releases/download/v0.2.0/Nping-aarch64-apple-darwin.zip"
-    sha256 "14d4d9a3944c5b40668ee02191335061ff5b8cec6fac4d984ab990d2273f891b"
+    url "https://github.com/hanshuaikang/Nping/releases/download/v0.2.1/nping-aarch64-apple-darwin.tar.gz"
+    sha256 "aaa2ef9984b52c54afaea8d4de4b9397334a06ffa44d1fbbf1d90c3b8b4134c4"
   end
 
   def install
