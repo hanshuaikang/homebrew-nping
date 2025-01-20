@@ -1,13 +1,14 @@
+# brew install --build-from-source ./Formula/nping.rb
 class Nping < Formula
   desc "🏎 Nping mean NB Ping, A Ping Tool in Rust with Real-Time Data and Visualizations"
   homepage "https://github.com/hanshuaikang/Nping"
-  url "https://github.com/hanshuaikang/Nping/releases/download/v0.2.2/nping-x86_64-apple-darwin.tar.gz"
-  sha256 "4ced4570bffab4b3841e833b965aa07cdbc313f986006e99bba16352b7dc0a9e"
+  url "https://github.com/hanshuaikang/Nping/releases/download/v0.2.3/nping-x86_64-apple-darwin.tar.gz"
+  sha256 "14675e16235aea3d07f01a3ccc8ac900e1e6479519e5969fb80cb7263319791a"
 
-#   for arm64
+  # for arm64
   on_arm do
-    url "https://github.com/hanshuaikang/Nping/releases/download/v0.2.2/nping-aarch64-apple-darwin.tar.gz"
-    sha256 "8d2a35515e007b5ebe4c443706e1b4ae3cd41e7a92707b616053b9b3d8624d84"
+    url "https://github.com/hanshuaikang/Nping/releases/download/v0.2.3/nping-aarch64-apple-darwin.tar.gz"
+    sha256 "ee5e8b7403a046bfee0a0f19d6cf4cfea6584a048d635876654eec1e061c403a"
   end
 
   def install
